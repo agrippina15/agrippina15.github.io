@@ -1,0 +1,209 @@
+/* :root {
+  --background: #2D6187;
+  --lightblue: #28abb9;
+  --green: #6dc5a2;
+  --lightgreen: #ade3a3;
+  --beige: #fff0d9;
+  --text: white;
+  --text-inverted: black;
+*/
+
+p {
+    color: #2D6187;
+  }
+
+h2 {
+    color: #6dc5a2;
+    font-weight: 600;
+  }
+h3 {
+    color: #6dc5a2;
+  }
+
+h5 {
+    color: #6dc5a2;
+    font-size: 2rem;
+  }
+
+h6 { 
+    color: #6dc5a2;
+    font-weight: 400;
+  }
+
+
+b{
+  color: #6dc5a2;
+  font-weight: 800;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #6dc5a2;
+  outline-color: #6dc5a2;
+  border-radius: 60px;
+  padding: 10px;
+}
+
+  
+.container {
+    max-width: 100%;
+}
+.row {
+  padding: 10px;
+  margin: 10px;
+}
+.bmenu{
+  display:flex;
+  text-align: center;
+}
+
+/* Style the navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Brand Icon or Text on left side of navbar */
+.navbar-brand a{
+  color: white;
+}
+.navbar-branda:hover{
+  color:#6dc5a2;
+}
+
+
+
+
+#footer .container{
+ max-width: 75%;
+}
+
+body { padding-top: 56px; }
+.left-aligned { margin-left: auto; }
+.bg-dark { background-color: #2D6187 !important; }
+.bg-hero { background-color: #2D6187; }
+
+/* Style the header: fixed position (always stay at the top) */
+.headprogressbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #2D6187;
+}
+
+/* The progress container (white background) */
+.progress-container {
+  width: 100%;
+  height: 70px;
+  background: #2D6187;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 70px;
+  background: #6dc5a2;
+  width: 0%;
+}
+
+/* CALLOUT */
+.bd-callout { padding:1.25rem; margin-top:1.25rem; margin-bottom:1.25rem; border:1px solid #2D6187; border-left-width:.25rem; border-radius:.25rem }
+.bd-callout h4 { margin-bottom:.25rem }
+.bd-callout p:last-child { margin-bottom:0 }
+.bd-callout code { border-radius:.25rem }
+.bd-callout+.bd-callout { margin-top:-.25rem }
+.bd-callout-info { border-left-color:#5bc0de }
+.bd-callout-warning { border-left-color:#f0ad4e }
+.bd-callout-danger { border-left-color:#d9534f }
+
+
+body a { color: #2D6187; font-weight: bold; text-decoration: none;}
+body a:hover { color: #6dc5a2; text-decoration: underline; }
+
+
+
+.solution{
+  text-align: center;
+}
+/*Home*/
+.homebox{
+  align-items: center;
+  background: #2D6187;
+  border-radius: 25px;
+  box-shadow: 0 0 1rem #2025381a;
+  height: auto;
+  padding: 20px;
+  z-index: 100;
+}
+
+.emph{
+  color: #6dc5a2;
+  font-weight: 600;
+}
+
+
+.homebox h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.homebox p{
+  color: white;
+  font-size: 1.3rem;
+}
+
+btn btn-primary btn-lg{
+  background-color: #6dc5a2 !important;
+  border-radius: 12px !important;
+}
+
+
+
+/*Mannschaft*/
+.card {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+.card-title{
+  color:#2D6187;
+}
+.card-text{
+  color:#2D6187;
+}
+
+
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
+
+
+/* footer */
+footer a { color: white; font-weight: bold; text-decoration: none;}
+footer a:hover { color: #6dc5a2; text-decoration: underline; }
+
+
+.contact{
+  color: white;
+}
+
+
+
+#footerlicense p {
+  color: white
+}
