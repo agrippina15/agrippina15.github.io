@@ -36,6 +36,46 @@ b{
   font-weight: 800;
 }
 
+    /* Basic Reset and Body Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    
+
+    /* Header Styles */
+    header {
+      background-color: #222;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    
+    /* Main Content */
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
@@ -60,23 +100,67 @@ b{
   text-align: center;
 }
 
+
 /* Style the navbar */
 #navbar {
   position: sticky;
   top: 0;
-  overflow: hidden;
+  right: 0;
+  left: 0;
+  z-index: 1030;
   background-color: #333;
 }
 
-/* Brand Icon or Text on left side of navbar */
+/* Brand Icon or Text on left side of navbar (not utilized presently because I 
+dont have a link set up for the icon text (I think)) */
+
 .navbar-brand a{
   color: white;
 }
 .navbar-branda:hover{
-  color:#6dc5a2;
+  color:#00c3ff;
+}
+
+/* Style the header: fixed position (always stay at the top) */
+.headprogressbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  padding: 0; /* to remove padding inherited from header*/
+  height: 70px; /* removing the padding from header, breaks everything, so I have to readd the height harcoded i guess*/
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 60px;
+  background: #00c3ff;
+  width: 0%;
 }
 
 
+/* Nav list on the right */
+nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00c3ff;
+}
+
+/* Zigaretten counter */
+.zigaretten-text{
+  text-align: center;
+}
 
 
 #footer .container{
@@ -85,31 +169,10 @@ b{
 
 body { padding-top: 56px; }
 .left-aligned { margin-left: auto; }
-.bg-dark { background-color: #2D6187 !important; }
+.bg-dark { background-color: #333 !important; }
 .bg-hero { background-color: #2D6187; }
 
-/* Style the header: fixed position (always stay at the top) */
-.headprogressbar {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: #2D6187;
-}
 
-/* The progress container (white background) */
-.progress-container {
-  width: 100%;
-  height: 70px;
-  background: #2D6187;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 70px;
-  background: #6dc5a2;
-  width: 0%;
-}
 
 /* CALLOUT */
 .bd-callout { padding:1.25rem; margin-top:1.25rem; margin-bottom:1.25rem; border:1px solid #2D6187; border-left-width:.25rem; border-radius:.25rem }
@@ -193,9 +256,26 @@ btn btn-primary btn-lg{
 
 
 
-/* footer */
-footer a { color: white; font-weight: bold; text-decoration: none;}
-footer a:hover { color: #6dc5a2; text-decoration: underline; }
+
+/* Footer Styles */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    }
+
+footer a {
+    margin: 0 0.5rem;
+    color: #333;
+    text-decoration: none;
+    }
+
+footer a:hover {
+    color: #00c3ff;
+    text-decoration: underline;
+    }
 
 
 .contact{

@@ -1,0 +1,9 @@
+22.09.25
+    Zigaretten Counter 
+        - Seite angelegt
+        - anfangs text eingefügt und zentriert
+    fixed progressbar container
+        - Das Problem war dass im header noch padding inherited war, wenn man das ändert 
+        und die höhe neu hardcoded geht es.
+    changed favicon
+        - generated with canva, not sure if it worked, took a while last time
